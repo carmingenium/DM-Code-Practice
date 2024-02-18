@@ -1,6 +1,6 @@
 // 2 - VARIABLES
 
-// 2.1 - STRINGS 
+// 2.1 - STRINGS
 
 
 // Activity 1
@@ -31,13 +31,13 @@
 // "}
 // mob/Login()
 //   world << text1
-  
+
 // Understanding 2 - Raw Strings
 // mob/Login()
 //   world << @"This is a raw string. It can contain anything, including \ and [] ."
 // Complex Raw Strings
 // mob/Login()
-//   world << @{" 
+//   world << @{"
 //   I have now absolute freedom to use "quotes"
 //   or [brackets]
 //   or line breaks.
@@ -45,3 +45,35 @@
 
 
 // 2.2 LISTS
+
+// var/list/L         // list reference
+// L = world.contents // assign to existing list
+// L = list()         // make a new list
+// L += "futz"        // L = {"futz"}
+
+// var/tenlist[10] // empty list of size 10 (c-style)
+// var/fivelist = new/list(5) // empty list of size 5
+
+// initializing a list
+
+// var/list/L = list("foo", "bar") // L = {"foo", "bar"}
+
+
+// accessing an item from list
+
+// INDICES START FROM 1, GO UNTIL LENGTH OF LIST
+// var/list/L = list("foo", "bar")
+// world << L[1] // "foo"
+
+// Traversing a list.
+
+// var/list/L[5]
+// for (var/i in 1 to length(L))
+//     L[i] = i // L = {1, 2, 3, 4, 5}
+
+// L.len = 7 // L = {1, 2, 3, 4, 5, null, null}
+
+// associated Lists
+// var/list/L = list(fizz = "buzz", money = 100)
+// mob/Login()
+//   world << L["fizz"] // "buzz"
