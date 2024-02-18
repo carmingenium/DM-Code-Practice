@@ -77,3 +77,23 @@
 // var/list/L = list(fizz = "buzz", money = 100)
 // mob/Login()
 //   world << L["fizz"] // "buzz"
+
+// /mob/Login()
+//   // `n` will take the values: 1, 2, ..., 100 in each iteration
+//   for (var/n in 1 to 101)
+//     if (n % 15 == 0)
+//       world << "fizzbuzz"
+//     else if (n % 3 == 0)
+//       world << "fizz"
+//     else if (n % 5 == 0)
+//       world << "buzz"
+//     else
+//       world << "[n]"
+
+// nested lists
+// mob/Login()
+//   var/list/my_list[3][4]
+//   for (var/i in 1 to length(my_list))
+//     for(var/j in 1 to length(my_list[i]))
+//       my_list[i][j] = "[i],[j]"
+//       world << my_list[i][j]
