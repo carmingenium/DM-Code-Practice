@@ -14,5 +14,6 @@
 
 // BEGIN_INCLUDE
 #include "learntest.dm"
+#include "learntest2.dm"
 // END_INCLUDE
 
