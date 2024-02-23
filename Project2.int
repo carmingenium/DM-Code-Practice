@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1708690322
+LAST_COMPILE_TIME: 1708690533
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 515.1630
-WINDOW: learntest2.dm;testmap.dmm;torch.dmi
-FILE: torch.dmi
+WINDOW: learntest2.dm;testmap.dmm;torch.dmi;learntest3.dm
+FILE: learntest3.dm
 */
 // END_INTERNALS
