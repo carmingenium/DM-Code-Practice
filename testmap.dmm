@@ -1,0 +1,16 @@
+"a" = (/turf,/area/dark)
+"b" = (/turf/platform,/area/dark)
+"c" = (/turf/start,/area/dark)
+
+(1,1,1) = {"
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+caaaaaaaaa
+aaaaaaaaaa
+bbbaaaaaaa
+bbbaaaaaaa
+bbbaaaaaaa
+"}
