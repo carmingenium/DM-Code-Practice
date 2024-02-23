@@ -1,9 +1,11 @@
 "a" = (/turf,/area/dark)
 "b" = (/turf/platform,/area/dark)
 "c" = (/turf/start,/area/dark)
+"d" = (/obj/torch,/turf,/area/dark)
+"e" = (/obj/torch,/turf/platform,/area/dark)
 
 (1,1,1) = {"
-aaaaaaaaaa
+daaaaaaaad
 aaaaaaaaaa
 aaaaaaaaaa
 aaaaaaaaaa
@@ -12,5 +14,5 @@ caaaaaaaaa
 aaaaaaaaaa
 bbbaaaaaaa
 bbbaaaaaaa
-bbbaaaaaaa
+ebbaaaaaad
 "}

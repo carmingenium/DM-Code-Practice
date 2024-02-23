@@ -5,9 +5,21 @@ mob
     loc = locate(/turf/start)
     world << "Login"
 
+obj
+  torch
+    icon = 'torch.dmi'
+    luminosity = 1
+    verb/activate()
+      set src in view(1)
+      luminosity = 1
+    verb/extinguish()
+      set src in view(1)
+      luminosity = 0
+
 area/dark
   icon = 'dark.dmi'
   verb/clap()
+    set src in view(0)
     luminosity = 1
 turf
   platform
