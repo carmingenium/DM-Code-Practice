@@ -7,13 +7,16 @@ mob
 
 obj
   torch
-    icon = 'torch.dmi'
+    icon = 'torch.dmi' 
+    icon_state = "active" 
     luminosity = 1
     verb/activate()
       set src in view(1)
+      icon_state = "active" 
       luminosity = 1
     verb/extinguish()
       set src in view(1)
+      icon_state = "deactivated" 
       luminosity = 0
 
 area/dark
